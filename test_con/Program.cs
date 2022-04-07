@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace test_con
 {
-    public class Program
+    public class main
     {
-        static public void main()
+        static public void Main()
         {
             FileManager obj1 = new FileManager();
-            obj1.directory();
+            Something som1 = new Something();
+            som1.useall();//obj1.directory();
         }
     }
 }
