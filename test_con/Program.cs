@@ -11,9 +11,15 @@ namespace test_con
     {
         static public void Main()
         {
+
+            string userIn = " ";
+            userIn = Console.ReadLine();  
+            Challenge1 chall = new Challenge1(userIn);
+            /*
             FileManager obj1 = new FileManager();
             Something som1 = new Something();
             som1.useall();//obj1.directory();
+            */
         }
     }
 }
