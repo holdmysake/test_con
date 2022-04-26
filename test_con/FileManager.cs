@@ -27,7 +27,7 @@ namespace test_con
             {
                 using (StreamWriter sw = new StreamWriter(path.ToString()))
                 {
-                    sw.WriteLine("Siemaneczko\nZiomeczki");
+                    sw.WriteLine("TEST");
                 }
             }
         }//
